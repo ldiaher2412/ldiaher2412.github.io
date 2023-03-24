@@ -1,0 +1,28 @@
+body {background-image: url("../images/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+div {border-style: groove;
+        border-color: rgb(37, 88, 140) ;
+        border-width: 15px;
+        background-color: rgb(69, 131, 194);
+        text-align: center;
+        margin-top: 350px;
+        margin-left: 500px;
+        margin-right: 500px;
+        padding-bottom: 20px;
+        }
+    
+#primero {font-size: 50px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color:rgb(232, 236, 214)}
+    
+#segundo {font-family: monospace;
+                text-decoration: underline;}
+    a:link {color: rgb(240, 244, 152);}
+    a:visited {color:rgb(190, 194, 116)}
+    a:hover {background-color: rgb(37, 88, 140);}  
+    a:active {background-color: rgb(37, 88, 140);} 
+    a:focus {background-color: rgb(37, 88, 140);}
