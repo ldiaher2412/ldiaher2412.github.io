@@ -1,0 +1,40 @@
+body {background-image: url("../images/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+div {border-style: groove;
+    border-color: rgb(37, 88, 140) ;
+    border-width: 15px;
+    background-color: rgb(69, 131, 194);
+    text-align: left;
+    padding-left: 150px;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    }
+
+#primero {font-size: 55px;
+        font-weight: bold;
+        font-family: fantasy;
+        background-color: rgb(37, 88, 140);
+        color:rgb(232, 236, 214);
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 150px;
+        padding-left: 30px;
+        }
+
+
+a:link {color: rgb(240, 244, 152);}
+a:visited {color:rgb(190, 194, 116)}
+a:hover {background-color: rgb(37, 88, 140);}  
+a:active {background-color: rgb(37, 88, 140);} 
+a:focus {background-color: rgb(37, 88, 140);}
+
+li{ color: rgb(240, 244, 152);}
+
+img{margin-left: 30px;
+    margin-bottom: 50px;}

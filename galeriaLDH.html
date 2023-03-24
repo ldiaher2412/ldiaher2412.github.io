@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Lucía Gallery</title>
+        <meta charset="utf=8">
+        <meta name="author" content="Lucia Diaz Herrador">
+    </head>
+    <style>
+        body{background-color: rgb(5, 105, 72);}
+        #lit {text-align: center;
+            font-family: "fantasy", monospace;
+            background-color:rgb(177, 225, 170)}
+        section {
+            display:flex;
+            width:600px;
+            height:430px;}
+        section img {
+            width:0;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;}
+        section img:hover {
+            cursor:crosshair;
+            width:300px;
+            opacity: 1;
+            filter: contrast(120%);}
+    </style>
+    <body>
+        <h1 id="lit">Galería de literatura universal.</h1>
+        <section>
+        <img src="https://www.catedra.com/imagenes/libros/grande/9788437604077-las-desventuras-del-joven-werther.jpg">
+        <img src="https://www.catedra.com/imagenes/libros/grande/9788437600727-yerma.jpg">
+        <img src="https://www.catedra.com/imagenes/libros/grande/9788437641683-nada.jpg">
+        <img src="https://www.catedra.com/imagenes/libros/grande/9788437607795-romeo-y-julieta.jpg">
+        <img src="https://www.catedra.com/imagenes/libros/grande/9788437630380-la-tumba-de-antigona.jpg">
+        </section>
+
+    <a href="../proyectos.html"><img src="../images/flecharosa.gif" alt="flecha" width="200" lang="150"></a>
+    </body>
